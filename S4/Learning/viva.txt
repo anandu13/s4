@@ -1,0 +1,53 @@
+1. **What is “echo”?**
+   - to display a line of text or a variable's value.
+
+2. **What are the three permission groups?**
+   - owner, group, and all users.
+
+3. **What is fork() System Call?**
+   - `fork()` is a system call that creates a new process by duplicating the current process.
+
+4. **What is semaphore in OS?**
+   - A semaphore is a synchronization primitive used to control access to a common resource in concurrent programming.
+
+5. **What is fragmentation in OS?**
+   - Fragmentation refers to the condition where storage space is used inefficiently, reducing capacity or performance.
+    It can be internal or external.
+
+6. **What are the different types of OS?**
+   -  batch operating systems, time-sharing operating systems, distributed operating systems, real-time operating systems, etc.
+
+7. **What is Turn Around Time in CPU Scheduling?**
+   - Turnaround time is the total time taken from the submission of a process to the completion of the process.
+
+8. **What are the different states of a process?**
+   -  new, ready, running, waiting, and terminated.
+
+9. **State Producer Consumer Problem.**
+   - The Producer-Consumer problem is a classic synchronization problem that involves coordinating the production and consumption
+   of resources between two processes.
+
+10. **What are the different kinds of operations that are possible on semaphore?**
+    -  `wait` (or `P`) and `signal` (or `V`).
+
+11. **Why is Bankers Algorithm used?**
+    - The Banker's Algorithm is used in operating systems to avoid deadlock by allocating resources safely.
+
+12. **What is Optimal Page Replacement Algorithm?**
+    - The Optimal Page Replacement Algorithm is a theoretical algorithm that replaces the page that will not be used
+    for the longest period of time in the future.
+
+13. **Explain the terms: seek time, rotational latency, disk access time, disk response time.**
+    - These terms are related to the performance metrics of disk storage:
+      - **Seek time:** The time it takes for the read/write head to move to the track where the data is stored.
+      - **Rotational latency:** The delay waiting for the rotation of the disk to bring the required data under the read-write head.
+      - **Disk access time:** The total time it takes to read or write data, including seek time and rotational latency.
+      - **Disk response time:** The time it takes from the request for data to the completion of the data transfer.
+
+14. **Which of the page replacement algorithms suffers from Belady’s Anomaly?**
+    - Belady's Anomaly is a phenomenon where increasing the number of page frames results in an increase in the number
+    of page faults. The FIFO (First-In-First-Out) page replacement algorithm is known to suffer from this anomaly.
+
+15. **What are the steps to be followed while implementing shared memory?**
+    - attaching it to the process's address space,
+    and then detaching and deleting it when done.
